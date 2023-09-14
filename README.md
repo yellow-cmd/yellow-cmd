@@ -1,4 +1,4 @@
-<p align="center" width="400"><img align="center" width="300" src="img/logo_no_bg.svg"/></p>
+<p align="center"><img align="center" width="200" src="img/logo_no_bg.svg"/></p>
     <h3 align="center">💫 ¡Hey! Soy Yellow 💫</h3>
 </p>
 
