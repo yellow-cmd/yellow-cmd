@@ -54,7 +54,7 @@ if __name__ == "__main__":
 ## ¡Conecta conmigo!
 
 <p>
-    <a href="www.padawanpath.es"><img alt="Website" title="Padawan Path" src="https://img.shields.io/badge/Website-FF0000?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
+    <a href="http://www.padawanpath.es"><img alt="Website" title="Padawan Path" src="https://img.shields.io/badge/Website-FF0000?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
     <a href="mailto:yellowflagisme@gmail.com"><img alt="Gmail" title="Yellow's Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" style="padding-left: 1%"></a>
     <a href="https://twitter.com/yellow_cmd"><img alt="Twitter" title="Yellow's Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" style="padding-left: 1%"></a>
     <a href="https://www.youtube.com/@padawanpath"><img alt="Youtube" title="Padawan Path" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" style="padding-left: 1%"></a>
