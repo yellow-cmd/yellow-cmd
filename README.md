@@ -1,5 +1,5 @@
-<p align="center" width="300"><img align="center" width="200" src="img/logo_no_bg.svg"/></p>
-    <h3 align="center">¡Hey 👋! I'm Yellow 💫</h3>
+<p align="center" width="400"><img align="center" width="300" src="img/logo_no_bg.svg"/></p>
+    <h3 align="center">💫 ¡Hey! Soy Yellow 💫</h3>
 </p>
 
 </br>
@@ -10,26 +10,25 @@ from datetime import datetime
 
 
 class FellowDeveloper:
-    def __init__(self, user: str, location: str, currently_learning: str, fun_fact: str, hobbies: List[str]):
+    def __init__(self, user: str, location: str, fun_fact: str, hobbies: List[str]):
         self.user = user
         self.location = location
-        self.currently_learning = currently_learning
         self.fun_fact = fun_fact
         self.hobbies = ", ".join(hobbies)
 
     def get_ambitions(self) -> str:
         return f"""
         🚀 {datetime.now().year} Goals 🚀
-        💻 Improve my frontend skills
-        🐹 Learn Golang
-        📝 Contribute to open source projects
+        💻 Mejorar mis skills de frontend
+        🐹 Aprender Golang
+        📝 Contribuir a proyectos open source
         """
 
     def get_introduction(self) -> str:
         return f"""
-        👋 Hi there, I'm {self.user}!
-        📍 Location: {self.location}
-        😅 Fun fact: {self.fun_fact}
+        👋 Hey! Soy {self.user}!
+        📍 País: {self.location}
+        👀 Dato curioso: {self.fun_fact}
         🦄 Hobbies: {self.hobbies}
         """
 
@@ -41,29 +40,18 @@ class FellowDeveloper:
 if __name__ == "__main__":
     yellow = FellowDeveloper(
         user="Yellow",
-        location="Spain",
-        currently_learning="Javascript",
-        fun_fact="I run a Youtube channel about programming! 📺",
-        hobbies=['🎵 Urban Music', '🎮 Gaming', '🎥 Sci-Fi Movies']
+        location="España",
+        fun_fact="Creo contenido en Padawan Path 📼",
+        hobbies=['🎵 Música urbana', '🎮 Gaming', '👾 Ciencia ficción']
     )
     yellow.introduce_me()
  ```
 
 ## Main skills
 
-<p>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" style="height:60px; width:60px" title="Python"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" style="height:50px; width:50px; filter: brightness(0) invert(1); padding-bottom:5px;"title="Django"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" style="height:58px; width:58px; padding-bottom: 2px; padding-left: 5px" title="PostgreSQL"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" style="height:66px; width:66px; padding-left: 5px;" title="Docker"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" style="height:60px; width:60px; padding-bottom: 5px; padding-left: 5px" title="Bash"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" style="height:60px; width:60px; padding-left: 8px" title="Amazon Web Services"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" style="height:60px; width:60px; padding-left: 5px" title="GitHub"/>
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain-wordmark.svg" style="height:60px; width:60px; padding-left: 5px" title="Git"/>
+[![Main Skills](https://skillicons.dev/icons?i=python,django,postgres,docker,bash,aws,github,git&theme=dark)](https://skillicons.dev)
 
-</p>
-
-## Connect with me
+## ¡Conecta conmigo!
 
 <p>
     <a href="https://www.padawanpath.es"><img alt="Website" title="Padawan Path" src="https://img.shields.io/badge/Website-FF0000?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
