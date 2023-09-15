@@ -1,5 +1,5 @@
 <p align="center"><img align="center" width="200" src="img/logo_no_bg.svg"/></p>
-    <h3 align="center">👋 ¡Hey! Soy Yellow, y me dedico a <strong>programar y a crear contenido</strong> en <a href="http://padawanpath.es" target="_blank">Padawan Path</a> 👋</h3>
+    <h3 align="center">👋 ¡Hey! Soy Yellow, y me dedico a <strong>programar y a crear contenido</strong> en <a target="_blank" href="http://padawanpath.es">Padawan Path</a> 👋</h3>
 </p>
 
 </br>
