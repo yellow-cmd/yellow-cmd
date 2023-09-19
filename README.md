@@ -1,5 +1,5 @@
 <p align="center"><img align="center" width="200" src="img/logo_no_bg.svg"/></p>
-    <h3 align="center">👋 ¡Hey! Soy Yellow, y me dedico a <strong>programar y a crear contenido</strong> en <a href="http://padawanpath.es">Padawan Path</a> 👋</h3>
+    <h3 align="center">👋 ¡Hey! Soy Yellow, y me dedico a <strong>programar y a crear contenido</strong> en <a href="http://padawanpath.dev">Padawan Path</a> 👋</h3>
 </p>
 
 </br>
@@ -62,5 +62,4 @@ if __name__ == "__main__":
     <a href="http://www.padawanpath.es"><img alt="Website" title="Padawan Path" src="https://img.shields.io/badge/Website-FF0000?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
     <a href="mailto:yellow@padawanpath.dev"><img alt="Gmail" title="Yellow's Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" style="padding-left: 1%"></a>
     <a href="https://twitter.com/yellow_cmd"><img alt="Twitter" title="Yellow's Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" style="padding-left: 1%"></a>
-    <a href="https://www.youtube.com/@padawanpath"><img alt="Youtube" title="Padawan Path" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" style="padding-left: 1%"></a>
 </p>
