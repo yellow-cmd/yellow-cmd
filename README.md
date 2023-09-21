@@ -32,7 +32,7 @@ class FellowDeveloper:
         ----------------------------------
         🚀 Metas para el {datetime.now().year} 🚀
         ----------------------------------
-        💻 Mejorar mis habilidades de frontend
+        💻 Crear contenido divulgativo
         🐹 Aprender Golang
         📝 Contribuir a proyectos open source
         """
