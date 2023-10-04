@@ -7,12 +7,13 @@
 </br>
 
  ```python
-from typing import List
 from datetime import datetime
 
 
 class FellowDeveloper:
-    def __init__(self, user: str, location: str, fun_fact: str, hobbies: List[str]):
+    def __init__(
+        self, user: str, location: str, fun_fact: str, hobbies: list[str]
+    ):
         self.user = user
         self.location = location
         self.fun_fact = fun_fact
@@ -20,24 +21,24 @@ class FellowDeveloper:
 
     def get_introduction(self) -> str:
         return f"""
-        ----------------------------------
-        💫 Introducción 💫
-        ----------------------------------
-        👋 Nombre: {self.user}
-        📍 País: {self.location}
-        👀 Dato curioso: {self.fun_fact}
-        🦄 Hobbies: {self.hobbies}
-        """
+       ----------------------------------
+       💫 Introduction 💫
+       ----------------------------------
+       👋 Name: {self.user}
+       📍 Country: {self.location}
+       👀 Fun fact: {self.fun_fact}
+       🦄 Hobbies: {self.hobbies}
+       """
 
     def get_goals(self) -> str:
         return f"""
-        ----------------------------------
-        🚀 Metas para el {datetime.now().year} 🚀
-        ----------------------------------
-        💻 Crear contenido divulgativo
-        🐹 Aprender Golang
-        📝 Contribuir a proyectos open source
-        """
+       ----------------------------------
+       🚀 Goals for {datetime.now().year} 🚀
+       ----------------------------------
+       💻 Create divulgative content
+       🐹 Learn Golang
+       📝 Contribute to open-source projects
+       """
 
     def introduce_me(self) -> None:
         introduction_text = self.get_introduction() + self.get_goals()
@@ -47,9 +48,9 @@ class FellowDeveloper:
 if __name__ == "__main__":
     yellow = FellowDeveloper(
         user="Yellow 💫",
-        location="España 🌍",
-        fun_fact="Creo contenido en Padawan Path 📼",
-        hobbies=['🎵 Música urbana', '🎮 Gaming', '👾 Ciencia ficción']
+        location="Spain 🌍",
+        fun_fact="I write tech articles at Padawan Path 📼",
+        hobbies=["🎵 Urban music", "🎮 Gaming", "👾 Science fiction"],
     )
     yellow.introduce_me()
  ```
