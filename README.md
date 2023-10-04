@@ -4,7 +4,7 @@
     </a>
 </p>
 
-<p align="center" style="font-size: 1.17em; font-weight: bold;">👋 ¡Hey! Soy Yellow, y me dedico a <strong>programar y a crear contenido</strong> en <a href="http://padawanpath.dev">Padawan Path</a> 👋</p>
+<p align="center" style="font-size: 2em; font-weight: bold;">👋 ¡Hey! Soy Yellow, y me dedico a <strong>programar y a crear contenido</strong> en <a href="http://padawanpath.dev">Padawan Path</a> 👋</p>
 
 </br>
 
