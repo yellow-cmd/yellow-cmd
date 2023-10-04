@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="http://padawanpath.dev">
+    <a href="http://padawanpath.dev" target="_blank" rel="noopener noreferrer">
         <img align="center" width="200" src="img/logo_no_bg.svg"/>
     </a>
 </p>
