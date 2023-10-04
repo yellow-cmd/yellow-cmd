@@ -55,11 +55,14 @@ if __name__ == "__main__":
  ```
 
 ---
-
-[![Main Skills](https://skillicons.dev/icons?i=python,django,postgres,docker,bash,aws,github,git&theme=dark)](https://skillicons.dev)
+<p align="center">
+    <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer">
+        <img src="https://skillicons.dev/icons?i=python,django,postgres,docker,bash,aws,github,git&theme=dark" alt="Main Skills" />
+    </a>
+</p>
 
 ---
-<p>
+<p align="center">
     <a href="http://www.padawanpath.dev"><img alt="Website" title="Padawan Path" src="https://img.shields.io/badge/Website-FF0000?style=for-the-badge&logo=google-chrome&logoColor=white"></a>
     <a href="mailto:yellow@padawanpath.dev"><img alt="Gmail" title="Yellow's Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" style="padding-left: 1%"></a>
     <a href="https://twitter.com/yellow_cmd"><img alt="Twitter" title="Yellow's Twitter" src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" style="padding-left: 1%"></a>
