@@ -8,7 +8,7 @@
     {
       "name": "ylw",
       "source": "./plugins/ylw",
-      "description": "One entry point (/ylw:flow) that routes any need to scout, idea, kickoff, product, reassess or the project's /task, /change and /adr."
+      "description": "One entry point (/ylw:flow) that routes any need to scout, idea, kickoff, product, board, reassess or the project's /task, /change and /adr, with every task tracked on one GitHub Project."
     }
   ]
 }

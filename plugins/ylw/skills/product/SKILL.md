@@ -29,4 +29,4 @@ Pick the one that fits, or ask once if it's unclear: **Feature** (should we buil
    - If research was done: `docs/product/research/YYYY-MM-DD-<slug>.md` (question, options, ICE table, verdict, sources).
    - Each decision → `/adr` in the product domain (`[approved]` only with an explicit yes, otherwise proposed).
    - Commit: `docs(product): <short title>`.
-6. **Next.** If the verdict is Do now and the user wants it built, invoke `/task` with Domain: product, citing the P-ADRs by number.
+6. **Next.** If the verdict is Do now and the user wants it built: `../board/board.sh add <owner/repo> "<title>" "<goal + Done when + Domain: product + P-ADRs>" "In Progress"` (relative to this skill's base directory), then invoke `/task` with Domain: product, the issue URL, and the P-ADRs cited by number. If it's "Backlog" and committed work, `add … Todo`; if it's still only an idea, it stays in ideas.md.

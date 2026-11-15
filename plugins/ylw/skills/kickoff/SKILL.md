@@ -23,6 +23,7 @@ Most MVPs are experiments that will be thrown away. Optimise for speed to a work
    cd <projects dir> && gh repo create <owner>/<slug> --private --template yellow-cmd/project-template --clone
    ```
    Copy `KICKOFF.md` to `<slug>/docs/product/KICKOFF.md`, and the viability report (if any) to `<slug>/docs/product/research/`.
+   Put it on the board (the script is `../board/board.sh`, relative to this skill's base directory): `board.sh link <owner>/<slug>`, then `board.sh add <owner>/<slug> "<first task>" "<Done when>" Todo`. Write the issue URL into KICKOFF.md next to **First task**. If the board isn't set up, offer `ylw:board` setup once and continue either way.
 5. **Hand over.** A session can't move into the new repo, so print:
    ```bash
    cd <projects dir>/<slug> && claude "/ylw:kickoff"
@@ -36,7 +37,7 @@ Follow `docs/product/KICKOFF.md`:
 4. Write `docs/product/PRODUCT.md` from Pitch, Why, MVP scope, Monetization and exit test. Seed `docs/product/ideas.md` with the MVP "Out" items. Link any research in `docs/product/research/` from PRODUCT.md.
 5. Record each decision with `/adr`, in its domain (`[approved]` → accepted, `[proposed]` → proposed).
 6. Scaffold the structure and tooling (formatter, linter, type-check, tests, CI) following the stack ADR, then fill `AGENTS.md > Commands`.
-7. Commit ("chore: bootstrap from kickoff") and start the first task with `/task`.
+7. Commit ("chore: bootstrap from kickoff"). Move the first-task issue to In Progress (`../board/board.sh move <url> "In Progress"`) and start it with `/task`, passing the issue URL.
 
 ## KICKOFF.md template (keep under about 60 lines)
 

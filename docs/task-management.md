@@ -1,6 +1,6 @@
 # Managing tasks across projects (research, 2026-11-15)
 
-**Status:** proposed, not wired into the skills yet. For now `/ylw:flow "status of all projects"` reads `docs/STATUS.md` in each repo (option 2 below).
+**Status:** adopted. Option 1 is built into the plugin as `/ylw:board` (script: `plugins/ylw/skills/board/board.sh`), and flow, kickoff and product use it.
 
 | Tool | How Claude Code reaches it | Cross-project view | Cost (1 user) | Git integration | Verdict |
 |---|---|---|---|---|---|
