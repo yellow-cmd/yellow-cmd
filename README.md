@@ -110,6 +110,7 @@ Update after a change: `claude plugin marketplace update ylw-workflow`
 | Your profile and paths | `~/.claude/CLAUDE.md` (template: `profile.example.md`) |
 | A project's truth | its repo: `docs/STATUS.md`, `docs/product/PRODUCT.md`, `ideas.md`, ADRs |
 | Cross-project tasks | one GitHub Project; script `plugins/ylw/skills/board/board.sh`; config `~/.config/ylw/board.env` |
+| Set up a new machine from zero | [`ONBOARDING.md`](ONBOARDING.md) (paste into Claude Code) |
 | Why GitHub Projects (research) | [`docs/task-management.md`](docs/task-management.md) |
 
 ## Tips
