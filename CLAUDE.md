@@ -6,7 +6,7 @@ This repo holds the solo-founder workflow: a Claude Code plugin marketplace (`yl
 - `.claude-plugin/marketplace.json`: the marketplace. Its entry name must match `plugins/ylw/.claude-plugin/plugin.json` > `name`.
 - `plugins/ylw/skills/<skill>/SKILL.md`: one folder per skill. `flow` is the orchestrator; when you add, rename or remove a skill, update its routing table.
 - `ideas/`: idea and radar reports. Gitignored while the repo is public.
-- `profile.example.md`: the founder profile and paths that the skills read from `~/.claude/CLAUDE.md`.
+- `memory.example.md`: the workflow rules and paths for `~/.claude/CLAUDE.md`. Workflow only: skills never store or expect personal context.
 - `README.md`: the cheatsheet. Keep it in sync with the skills.
 
 ## Rules

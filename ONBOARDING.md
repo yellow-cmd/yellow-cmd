@@ -25,23 +25,10 @@ You are Claude Code running in WSL for this user. Set up everything below, in or
 - `claude plugin details ylw` must show `Skills (7)`.
 - Tell the user: "Run `/reload-plugins` (or restart Claude Code) so the `/ylw:*` skills load in this session."
 
-## 4. Memory (`~/.claude/CLAUDE.md`)
-- If the file exists, back it up and keep any content that isn't about the profile.
-- **ASK** in one message, all at once:
-  - role and stack
-  - employer's industry
-  - employment contract clauses (exclusivity, non-compete, IP)
-  - hobbies and edge
-  - side projects running now
-  - hours per week for side projects
-  - market (country or region)
-  - chat language
-- Write the `## Founder profile` and `## Workflow paths` sections from `~/code/<WORKFLOW name>/profile.example.md`:
-  - Workflow repo: `~/code/<WORKFLOW name>`
-  - Projects dir: `~/code`
-  - GitHub owner: `yellow-cmd`
-  - Project template: `yellow-cmd/project-template`
-- Add: `Tasks: every task is a GitHub issue on the ylw board (see /ylw:board). Finish with "Closes #n".`
+## 4. Memory (`~/.claude/CLAUDE.md`): workflow rules only
+- Memory holds **workflow and project rules only**: no personal context, profile, employer or preferences about the user. Don't ask for any.
+- If the file exists, back it up first. Show its current content and **ASK** whether to keep, move or drop anything that isn't workflow-related.
+- Write the `## ylw workflow` section from `~/code/<WORKFLOW name>/memory.example.md`, with `Workflow repo:` set to `~/code/<WORKFLOW name>`.
 - Show the final file.
 
 ## 5. Board (one GitHub Project for every repo)

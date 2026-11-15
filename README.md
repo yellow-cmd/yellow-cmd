@@ -17,7 +17,7 @@ claude plugin marketplace add yellow-cmd/yellow-cmd
 claude plugin install ylw@ylw-workflow
 ```
 
-Then copy the contents of [`profile.example.md`](profile.example.md) into `~/.claude/CLAUDE.md` and fill it in. The skills read your profile and paths from there.
+Then copy [`memory.example.md`](memory.example.md) into `~/.claude/CLAUDE.md` and adjust the paths. Memory holds **workflow rules only**, never personal context; the skills ask for what they need while they run.
 
 Set up the board (one GitHub Project for every repo's tasks):
 
@@ -107,7 +107,7 @@ Update after a change: `claude plugin marketplace update ylw-workflow`
 |---|---|
 | Skills | `plugins/ylw/skills/<skill>/SKILL.md` |
 | Idea and radar reports | `ideas/` (local, gitignored while this repo is public) |
-| Your profile and paths | `~/.claude/CLAUDE.md` (template: `profile.example.md`) |
+| Workflow memory (rules and paths, nothing personal) | `~/.claude/CLAUDE.md` (template: `memory.example.md`) |
 | A project's truth | its repo: `docs/STATUS.md`, `docs/product/PRODUCT.md`, `ideas.md`, ADRs |
 | Cross-project tasks | one GitHub Project; script `plugins/ylw/skills/board/board.sh`; config `~/.config/ylw/board.env` |
 | Set up a new machine from zero | [`ONBOARDING.md`](ONBOARDING.md) (paste into Claude Code) |

@@ -15,7 +15,7 @@ Chat replies follow the user's language. Files and repo content are in English.
 - **Workflow repo:** `.claude-plugin/marketplace.json` exists and is named `ylw-workflow`.
 - **Anywhere else:** treat it as "no project".
 
-Read the **Founder profile** and **Workflow paths** from your context (user `~/.claude/CLAUDE.md`). If they are missing, carry on, and say once at the end: "Add the profile from `profile.example.md` to `~/.claude/CLAUDE.md`."
+Read the **ylw workflow** section from your context (user `~/.claude/CLAUDE.md`): paths, owner and template. If it's missing, use `~/code` and `yellow-cmd`, and say once at the end: "Add `memory.example.md` from the workflow repo to `~/.claude/CLAUDE.md`." Memory holds workflow rules only. Never write personal context into it.
 
 ## 2. Route
 

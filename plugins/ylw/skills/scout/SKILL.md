@@ -1,13 +1,13 @@
 ---
 name: scout
-description: "Weekly scan of news, virals, booms and upcoming events for business opportunities that fit the founder. Use for the weekly radar, 'busca oportunidades', 'qué está pegando', 'find me an idea'."
+description: "Weekly scan of news, virals, booms and upcoming events for business opportunities a solo developer could ship. Use for the weekly radar, 'busca oportunidades', 'qué está pegando', 'find me an idea'."
 ---
 
 # Trend scout (weekly opportunity radar)
 
 Scan the last 7 days for opportunities a solo founder could exploit. Produce a short, sourced shortlist, not full analyses: anything promising goes to `idea` next. A quiet week is a valid result. Never invent opportunities to fill the report.
 
-Read the **Founder profile** in your context (user `~/.claude/CLAUDE.md`). Fit matters, but don't force it: a strong opportunity outside the founder's skills is still worth one line.
+No personal profile is stored. If the user passes focus areas as args ("gaming, music"), weight lens B toward them for this run only. Otherwise scan broadly.
 
 ## Rules of evidence
 - Every signal needs: a source URL you fetched, its publisher, its date, and one quoted sentence. Snippets and social posts are signals, not proof.
@@ -19,11 +19,11 @@ Read the **Founder profile** in your context (user `~/.claude/CLAUDE.md`). Fit m
 ## Scan (bounded)
 Use the Agent tool to spawn 3 subagents in parallel. Each gets at most 8 searches and 5 fetches, covers the last 7 days only (plus events in the next 4-8 weeks), and returns only a table: signal · what's happening · quoted evidence · URL · date · momentum.
 - **A. Tech, AI and internet:** launches, Hacker News / Product Hunt / GitHub trending, viral formats, new APIs or platform changes that open gaps.
-- **B. Gaming, music and creators:** Roblox/Steam charts, big releases and updates, music-tech and creator-economy news, festivals.
-- **C. Spain/EU, the founder's industry, regulation and calendar:** new laws or subsidies taking effect, Spanish business news, upcoming events that create short demand windows.
+- **B. Consumer, entertainment and creators** (or the focus areas passed as args): charts, big releases and updates, creator-economy news, events.
+- **C. Regulation, local market and calendar:** new laws or subsidies taking effect, regional business news (Spain/EU by default), upcoming events that create short demand windows.
 
 ## Filter and score
-Score each candidate 1-3 on: momentum · window length · founder fit · build effort (3 = shippable in 2 weeks or less at real hours) · clear way to make money · saturation (3 = few players). Keep up to 3 that score at least 13/18. Flag anything that touches the employer's industry (contract risk).
+Score each candidate 1-3 on: momentum · window length · solo fit (one developer can build, sell and support it) · build effort (3 = shippable in 2 weeks or less at real hours) · clear way to make money · saturation (3 = few players). Keep up to 3 that score at least 13/18. Add a one-line reminder to check employment-contract conflicts.
 
 Read earlier reports in `<workflow repo>/ideas/radar/`. Mark repeats as rising / steady / fading instead of reporting them again.
 
@@ -36,7 +36,7 @@ Write `<workflow repo>/ideas/radar/radar-YYYY-MM-DD.md` and give a 3-line summar
 ## Top opportunities (max 3)
 ### 1. <name> - score X/18 · trend|fad · window: N weeks
 - What and why now: … [n]
-- Fit: what the founder brings, what's missing.
+- Solo fit: what it takes, what's missing.
 - Smallest first step (1 day or less).
 - Worth a full idea run? yes/no, why.
 
