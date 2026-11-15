@@ -1,0 +1,8 @@
+{
+  "name": "ylw",
+  "version": "1.0.0",
+  "description": "Solo-founder workflow: /ylw:flow routes any need to the right step, from idea to shipped task.",
+  "author": {
+    "name": "yellow-cmd"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "ylw-workflow",
+  "description": "Solo-founder workflow for Claude Code: find, screen, kick off and grow projects.",
+  "owner": {
+    "name": "yellow-cmd"
+  },
+  "plugins": [
+    {
+      "name": "ylw",
+      "source": "./plugins/ylw",
+      "description": "One entry point (/ylw:flow) that routes any need to scout, idea, kickoff, product, reassess or the project's /task, /change and /adr."
+    }
+  ]
+}
