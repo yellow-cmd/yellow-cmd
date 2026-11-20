@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>yellow-cmd backup</title>
+<meta name="description" content="A personal backup tool that copies the owner's own files to the owner's own Google Drive.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>yellow-cmd backup</h1>
+<p class="muted">A personal tool, not a public service.</p>
+
+<p>yellow-cmd backup is a private, single-user backup setup. Every night it copies folders from the owner's own computer to the owner's own Google Drive, and lets the owner restore them. It runs on the open-source <a href="https://rclone.org">rclone</a>, signed in with the owner's own Google account.</p>
+
+<h2>What it does with Google Drive</h2>
+<ul>
+<li>Uploads the owner's files to a backup folder in the owner's Drive.</li>
+<li>Moves files the owner deleted into a dated folder there, and removes them after 30 days.</li>
+<li>Lists and downloads those files when the owner restores them.</li>
+</ul>
+<p>Nobody else uses this app. No data leaves the owner's computer and Google Drive, and nothing is shared, sold or analysed.</p>
+
+<p><a href="privacy.html">Privacy policy</a></p>
+
+<footer class="muted">Contact: <a href="https://github.com/yellow-cmd/yellow-cmd/issues">github.com/yellow-cmd/yellow-cmd/issues</a></footer>
+</body>
+</html>
